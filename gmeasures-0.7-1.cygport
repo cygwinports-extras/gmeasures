@@ -1,0 +1,5 @@
+DESCRIPTION="GTK+ weights and measures converter"
+HOMEPAGE="http://home.hccnet.nl/paul.schuurmans/linux/index.html"
+SRC_URI="http://home.hccnet.nl/paul.schuurmans/linux/download/${P}.tar.gz"
+
+MAKEOPTS+=" ${PN}docdir=/usr/share/doc/${P}"
