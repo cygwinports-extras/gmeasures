@@ -1,5 +1,0 @@
-category: Gnome Math
-requires: libatk1.0_0 libgcc1 libglib2.0_0 libgdk_pixbuf2.0_0 libgtk2.0_0
-sdesc: "GTK+ weights and measures converter"
-ldesc: "This is a simple utility to convert weights and measures. It can 
-also convert Celsius / Fahrenheit temperatures."

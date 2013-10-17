@@ -1,0 +1,12 @@
+NAME="gmeasures"
+VERSION=0.7
+RELEASE=10
+CATEGORY="Math"
+SUMMARY="GTK+ weights and measures converter"
+DESCRIPTION="This is a simple utility to convert weights and measures. It can
+also convert Celsius / Fahrenheit temperatures."
+HOMEPAGE="http://home.hccnet.nl/paul.schuurmans/linux/index.html"
+SRC_URI="http://home.hccnet.nl/paul.schuurmans/linux/download/${NAME}-${VERSION}.tar.gz"
+PATCH_URI="0.7-cflags.patch"
+
+MAKEOPTS+=" ${NAME}docdir=/usr/share/doc/${NAME}"
